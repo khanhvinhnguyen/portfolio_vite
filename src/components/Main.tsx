@@ -7,7 +7,7 @@ import {
   BiLogoGmail,
   BiPhoneCall
 } from "react-icons/bi";
-import { mainData } from "./data";
+import { mainData } from "../assets/data";
 import { IconType } from "react-icons";
 
 const Main = () => {

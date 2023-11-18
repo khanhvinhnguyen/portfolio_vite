@@ -1,5 +1,5 @@
 import CertificateItem from "./CertificateItem";
-import { CertList } from "./data";
+import { CertList } from "../assets/data";
 
 const Certificate = () => {
   return (

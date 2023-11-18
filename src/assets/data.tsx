@@ -1,4 +1,4 @@
-import lixiImg from "../assets/lixiImg.png"
+import lixiImg from "../assets/projectImg/lixiImg.png"
 
 
 // Infomation
@@ -9,7 +9,7 @@ export const mainData = {
     facebook: "",
     instagram: "",
     github: "https://github.com/khanhvinhnguyen",
-    linkedin: "https://www.linkedin.com/in/vinhnk/",
+    linkedin: "https://www.linkedin.com/in/khanhvinhnguyen/",
     gmail: "vinhnk.work@gmail.com",
   } as Record<string, string>,
   phoneNum: '077-795-7876',
@@ -23,11 +23,11 @@ export const WorkList = [
     company: "BcProps Foundation",
     roles: "Full-stack Developer",
     details: (
-      <ol>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ol>
+      <ul>
+        <li>- Built an social network using HTML, CSS, TypeScript and NextJS</li>
+        <li>- Utilized GraphQL for CRUD and developed back-end with NodeJS</li>
+        <li>- Learned Redux Saga to handle the state application</li>
+      </ul>
     ),
   },
 ];
@@ -48,7 +48,7 @@ export const CertList = [
   {
     year: 2023,
     name: 'Developing Front End Apps with React',
-    unit: 'EDX',
-    imageLink: ''
+    unit: 'edX',
+    imageLink: 'https://drive.google.com/file/d/1tOFVq8zT2wWVyu9kSwUnC2_EG1AKCeXQ/view?usp=sharing'
   },
 ];

@@ -1,5 +1,5 @@
 import WorkItem from "./WorkItem";
-import { WorkList } from "./data";
+import { WorkList } from "../assets/data";
 
 
 const Work = () => {

@@ -18,7 +18,7 @@ const WorkItem = (props: WorkItemProps) => {
           <span className='inline-block px-2 py-1 rounded-lg bg-[#001b5e] text-white font-semibold '>{year}</span>
           <span className='text-[#001b5e] font-semibold text-lg'>{company}</span>
         </p>
-        <span className='text-stone-500 text-md leading-none'>{roles}</span>
+        <span className='text-md font-bold text-black leading-none'>{roles}</span>
         <p className='my-2 text-bases text-stone-500'>{details}</p>
       </li>
     </ol>

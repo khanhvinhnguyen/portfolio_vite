@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import { ProjectList } from "./data";
+import { ProjectList } from "../assets/data";
 
 const Projects = () => {
   return (
@@ -8,18 +8,21 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8 ">
-        In the 'Projects' section of my portfolio, I showcase a diverse range of
-        endeavors that highlight my skills and expertise in the field. Each
-        project represents a unique challenge I undertook, demonstrating my
-        problem-solving abilities, creativity, and technical proficiency.
+        Showcase a diverse range of endeavors that highlight my skills and
+        expertise in the field. Each project represents a unique challenge I
+        undertook, demonstrating my problem-solving abilities, creativity, and
+        technical proficiency.
       </p>
 
       <div className="grid sm:grid-cols-2 gap-12">
-        {
-          ProjectList.map((proj, idx) => (
-            <ProjectItem key={idx} img={proj.img} pjName={proj.pjname} shortDesc={proj.shortDesc}/>
-          ))
-        }
+        {ProjectList.map((proj, idx) => (
+          <ProjectItem
+            key={idx}
+            img={proj.img}
+            pjName={proj.pjname}
+            shortDesc={proj.shortDesc}
+          />
+        ))}
       </div>
     </div>
   );
